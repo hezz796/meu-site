@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; /* define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. */
+    padding: 2rem;
+}
+
+section {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 2rem;
+}
+
+aside {
+    flex: 0 0 200px;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
